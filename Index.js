@@ -17,7 +17,4 @@ function makeTree(arr) {
 }
    
 // keep this function call here 
-var inputArray=[]
-var str=window.prompt("enter string")
-inputArray.push(str)
-console.log(makeTree(inputArray));
+console.log(makeTree(["(1,2)", "(3,2)", "(2,12)", "(5,2)"]));
